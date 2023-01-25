@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import GoalBar from "./GoalBar.jsx";
 import Button from "./Button.jsx";
+import ImageThumbnailRound from "./ImageThumbnailRound.jsx";
+import {BellIcon} from "@heroicons/react/24/outline/index.js";
 
 let goals;
 
@@ -19,7 +21,19 @@ function MainScreen(props) {
 
             <div className="w-full h-[10%] rounded-md flex justify-between items-center">
                 <h1 className="font-bold text-3xl">Goals</h1>
-                <Button name="Add Goal" className=""/>
+
+                <div className="w-fit h-fit flex flex-row-reverse">
+                    <ImageThumbnailRound src="/img/img.png"  className="w-10 h-10"/>
+
+                    <span className="flex justify-center items-center mx-4 cursor-pointer">
+                        <BellIcon className="w-7 text-gray-600" />
+                        <span className="bg-red-600 w-2.5 aspect-square rounded-full absolute ml-3 -mt-3 border border-white" />
+                    </span>
+
+                    <Button name="Add Goal" className=""/>
+
+                </div>
+
             </div>
 
             <div className="w-full h-full min-h-[20%] rounded-md my-4 flex flex-col md:flex-row" >
@@ -40,7 +54,10 @@ function MainScreen(props) {
 
 const fetchGoalsData = (setGoals) =>{
 
-    fetch("http://192.168.0.104:5173/data.json")
+    const link = window.location.origin
+
+
+    fetch(`${link}/data.json`)
         .then((response) => response.json())
         .then((res) => {
             setGoals(res)
