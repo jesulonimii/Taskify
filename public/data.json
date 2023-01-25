@@ -1,0 +1,190 @@
+[
+  {
+    "id": "001",
+    "name": "💡 Targets",
+    "tasks": [
+      {
+        "id": "#BL-02",
+        "task": "Create new components",
+        "tags": [
+          "Frontend Tech"
+        ],
+        "contributors": [
+          {
+            "username": "Jack",
+            "img": "/img/img_2.png"
+          },
+          {
+            "username": "Jack",
+            "img": "/img/img.png"
+          },
+          {
+            "username": "Jack",
+            "img": "/img/img_1.png"
+          }
+        ],
+        "comments": [
+          {
+            "id": "12345",
+            "username": "jack",
+            "comment": "random comment 1"
+          },
+          {
+            "id": "123456",
+            "username": "jack",
+            "comment": "random comment 2"
+          }
+        ]
+      },
+      {
+        "id": "#BL-03",
+        "task": "Implement Material Design",
+        "tags": [
+          "Design system",
+          "Design"
+        ],
+        "contributors": [
+          {
+            "username": "Jack",
+            "img": "/img/img_1.png"
+          },
+          {
+            "username": "Jack",
+            "img": "/img/img.png"
+          },
+          {
+            "username": "Jack",
+            "img": "/img/img_2.png"
+          }
+        ],
+        "comments": [
+          {
+            "id": "12345",
+            "username": "jack",
+            "comment": "random comment 1"
+          },
+          {
+            "id": "123456",
+            "username": "jack",
+            "comment": "random comment 2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "002",
+    "name": "📚 School",
+    "tasks": [
+      {
+        "id": "#BM-02",
+        "task": "Read by 5AM",
+        "tags": [
+          "MTH202"
+        ],
+        "contributors": [
+          {
+            "username": "Praise",
+            "img": "/img/img_2.png"
+          },
+          {
+            "username": "Jason",
+            "img": "/img/img.png"
+          }
+        ],
+        "comments": [
+          {
+            "id": "12345",
+            "username": "jack",
+            "comment": "random comment 1"
+          },
+          {
+            "id": "123456",
+            "username": "jack",
+            "comment": "random comment 2"
+          }
+        ]
+      },
+      {
+        "id": "#BM-03",
+        "task": "Practice Past question",
+        "tags": [
+          "MTH205"
+        ],
+        "contributors": [
+          {
+            "username": "Jack",
+            "img": "/img/img.png"
+          },
+          {
+            "username": "Jack",
+            "img": "/img/img_1.png"
+          },
+          {
+            "username": "Jack",
+            "img": "/img/img_2.png"
+          }
+        ],
+        "comments": [
+          {
+            "id": "12345",
+            "username": "jack",
+            "comment": "random comment 1"
+          },
+          {
+            "id": "123456",
+            "username": "jack",
+            "comment": "random comment 2"
+          }
+        ]
+      },
+      {
+        "id": "#BM-04",
+        "task": "Get the course outline",
+        "tags": [
+          "STT202"
+        ],
+        "contributors": [],
+        "comments": []
+      }
+    ]
+  },
+  {
+    "id": "003",
+    "name": "⚒️ Taskify",
+    "tasks": [
+      {
+        "id": "#BN-04",
+        "task": "Implement Dark theme",
+        "tags": [
+          "React"
+        ],
+        "contributors": [
+          {
+            "username": "Praise",
+            "img": "/img/img.png"
+          },
+          {
+            "username": "Jason",
+            "img": "/img/img_2.png"
+          }
+        ],
+        "comments": []
+      },
+      {
+        "id": "#BN-05",
+        "task": "Develop Backend",
+        "tags": [
+          "NodeJs"
+        ],
+        "contributors": [
+          {
+            "username": "Jack",
+            "img": "/img/img_2.png"
+          }
+        ],
+        "comments": []
+      }
+    ]
+  }
+]
